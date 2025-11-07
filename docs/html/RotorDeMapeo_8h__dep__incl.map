@@ -1,0 +1,14 @@
+<map id="RotorDeMapeo.h" name="RotorDeMapeo.h">
+<area shape="rect" id="Node000001" title="Implementación de lista circular doblemente enlazada para mapeo de caracteres." alt="" coords="149,5,271,31"/>
+<area shape="rect" id="Node000002" href="$RotorDeMapeo_8cpp.html" title="Implementación de la clase RotorDeMapeo." alt="" coords="12,79,147,104"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="178,40,102,81,99,76,175,35"/>
+<area shape="rect" id="Node000003" href="$Tramas_8h.html" title="Clases derivadas para los dos tipos de tramas: LOAD y MAP." alt="" coords="171,79,249,104"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="213,44,213,79,207,79,207,44"/>
+<area shape="rect" id="Node000006" href="$main_8cpp.html" title=" " alt="" coords="271,152,346,177"/>
+<area shape="poly" id="edge6_Node000001_Node000006" title=" " alt="" coords="232,39,263,77,305,151,301,153,258,80,228,43"/>
+<area shape="rect" id="Node000004" href="$ListaDeCarga_8cpp.html" title="Implementación de la clase ListaDeCarga." alt="" coords="5,152,132,177"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="177,112,93,154,91,149,174,108"/>
+<area shape="rect" id="Node000005" href="$Tramas_8cpp.html" title="Implementación de las clases TramaLoad y TramaMap." alt="" coords="157,152,247,177"/>
+<area shape="poly" id="edge4_Node000003_Node000005" title=" " alt="" coords="210,118,206,152,201,152,205,117"/>
+<area shape="poly" id="edge5_Node000003_Node000006" title=" " alt="" coords="238,110,294,150,291,154,235,114"/>
+</map>

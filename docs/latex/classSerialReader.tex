@@ -1,0 +1,127 @@
+\doxysection{Referencia de la clase Serial\+Reader}
+\hypertarget{classSerialReader}{}\label{classSerialReader}\index{SerialReader@{SerialReader}}
+
+
+Maneja la comunicación con el puerto serial (Arduino) en Linux.  
+
+
+
+
+{\ttfamily \#include $<$Serial\+Reader.\+h$>$}
+
+\doxysubsubsection*{Métodos públicos}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{classSerialReader_a182a5d78dad1bbb57fe7e86ae68fea82}{Serial\+Reader}} ()
+\begin{DoxyCompactList}\small\item\em Constructor. \end{DoxyCompactList}\item 
+\mbox{\hyperlink{classSerialReader_a3a5314ddbf65796603139fbec05c2cf6}{\texorpdfstring{$\sim$}{\string~}\+Serial\+Reader}} ()
+\begin{DoxyCompactList}\small\item\em Destructor que cierra el puerto si está abierto. \end{DoxyCompactList}\item 
+bool \mbox{\hyperlink{classSerialReader_a6f6788fcee0b6837aec7699d68d389c3}{conectar}} (const char \texorpdfstring{$\ast$}{*}nombre\+Puerto, int baud\+Rate=9600)
+\begin{DoxyCompactList}\small\item\em Conecta al puerto serial. \end{DoxyCompactList}\item 
+bool \mbox{\hyperlink{classSerialReader_aae3142d45125a0a6347bf4172804a8ad}{leer\+Linea}} (char \texorpdfstring{$\ast$}{*}buffer, int max\+Len)
+\begin{DoxyCompactList}\small\item\em Lee una línea del puerto serial. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{classSerialReader_a037303382453bf397ff19dcbc8c46dad}{cerrar}} ()
+\begin{DoxyCompactList}\small\item\em Cierra la conexión con el puerto. \end{DoxyCompactList}\item 
+bool \mbox{\hyperlink{classSerialReader_a2845e8d12a4209fc3e9c2b63c0d170dc}{esta\+Conectado}} () const
+\begin{DoxyCompactList}\small\item\em Verifica si el puerto está conectado. \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\doxysubsection{Descripción detallada}
+Maneja la comunicación con el puerto serial (Arduino) en Linux. 
+
+Proporciona métodos para conectar y leer datos desde un puerto /dev/tty\+USB0 o /dev/tty\+ACM0 
+
+\doxysubsection{Documentación de constructores y destructores}
+\Hypertarget{classSerialReader_a182a5d78dad1bbb57fe7e86ae68fea82}\label{classSerialReader_a182a5d78dad1bbb57fe7e86ae68fea82} 
+\index{SerialReader@{SerialReader}!SerialReader@{SerialReader}}
+\index{SerialReader@{SerialReader}!SerialReader@{SerialReader}}
+\doxysubsubsection{\texorpdfstring{SerialReader()}{SerialReader()}}
+{\footnotesize\ttfamily Serial\+Reader\+::\+Serial\+Reader (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Constructor. 
+
+\Hypertarget{classSerialReader_a3a5314ddbf65796603139fbec05c2cf6}\label{classSerialReader_a3a5314ddbf65796603139fbec05c2cf6} 
+\index{SerialReader@{SerialReader}!````~SerialReader@{\texorpdfstring{$\sim$}{\string~}SerialReader}}
+\index{````~SerialReader@{\texorpdfstring{$\sim$}{\string~}SerialReader}!SerialReader@{SerialReader}}
+\doxysubsubsection{\texorpdfstring{\texorpdfstring{$\sim$}{\string~}SerialReader()}{\string~SerialReader()}}
+{\footnotesize\ttfamily Serial\+Reader\+::\texorpdfstring{$\sim$}{\string~}\+Serial\+Reader (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Destructor que cierra el puerto si está abierto. 
+
+
+
+\doxysubsection{Documentación de funciones miembro}
+\Hypertarget{classSerialReader_a037303382453bf397ff19dcbc8c46dad}\label{classSerialReader_a037303382453bf397ff19dcbc8c46dad} 
+\index{SerialReader@{SerialReader}!cerrar@{cerrar}}
+\index{cerrar@{cerrar}!SerialReader@{SerialReader}}
+\doxysubsubsection{\texorpdfstring{cerrar()}{cerrar()}}
+{\footnotesize\ttfamily void Serial\+Reader\+::cerrar (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Cierra la conexión con el puerto. 
+
+\Hypertarget{classSerialReader_a6f6788fcee0b6837aec7699d68d389c3}\label{classSerialReader_a6f6788fcee0b6837aec7699d68d389c3} 
+\index{SerialReader@{SerialReader}!conectar@{conectar}}
+\index{conectar@{conectar}!SerialReader@{SerialReader}}
+\doxysubsubsection{\texorpdfstring{conectar()}{conectar()}}
+{\footnotesize\ttfamily bool Serial\+Reader\+::conectar (\begin{DoxyParamCaption}\item[{const char \texorpdfstring{$\ast$}{*}}]{nombre\+Puerto,  }\item[{int}]{baud\+Rate = {\ttfamily 9600} }\end{DoxyParamCaption})}
+
+
+
+Conecta al puerto serial. 
+
+
+\begin{DoxyParams}{Parámetros}
+{\em nombre\+Puerto} & Nombre del puerto (ej\+: "{}/dev/tty\+USB0"{}) \\
+\hline
+{\em baud\+Rate} & Velocidad de comunicación (por defecto 9600) \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Devuelve}
+true si la conexión fue exitosa, false en caso contrario 
+\end{DoxyReturn}
+\Hypertarget{classSerialReader_a2845e8d12a4209fc3e9c2b63c0d170dc}\label{classSerialReader_a2845e8d12a4209fc3e9c2b63c0d170dc} 
+\index{SerialReader@{SerialReader}!estaConectado@{estaConectado}}
+\index{estaConectado@{estaConectado}!SerialReader@{SerialReader}}
+\doxysubsubsection{\texorpdfstring{estaConectado()}{estaConectado()}}
+{\footnotesize\ttfamily bool Serial\+Reader\+::esta\+Conectado (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption}) const\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+Verifica si el puerto está conectado. 
+
+\begin{DoxyReturn}{Devuelve}
+true si está conectado, false en caso contrario 
+\end{DoxyReturn}
+\Hypertarget{classSerialReader_aae3142d45125a0a6347bf4172804a8ad}\label{classSerialReader_aae3142d45125a0a6347bf4172804a8ad} 
+\index{SerialReader@{SerialReader}!leerLinea@{leerLinea}}
+\index{leerLinea@{leerLinea}!SerialReader@{SerialReader}}
+\doxysubsubsection{\texorpdfstring{leerLinea()}{leerLinea()}}
+{\footnotesize\ttfamily bool Serial\+Reader\+::leer\+Linea (\begin{DoxyParamCaption}\item[{char \texorpdfstring{$\ast$}{*}}]{buffer,  }\item[{int}]{max\+Len }\end{DoxyParamCaption})}
+
+
+
+Lee una línea del puerto serial. 
+
+
+\begin{DoxyParams}{Parámetros}
+{\em buffer} & Buffer donde se almacenará la línea leída \\
+\hline
+{\em max\+Len} & Tamaño máximo del buffer \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Devuelve}
+true si se leyó una línea completa, false si hubo error
+\end{DoxyReturn}
+Lee hasta encontrar \textquotesingle{}~\newline
+\textquotesingle{} o hasta llenar el buffer 
+
+La documentación de esta clase está generada de los siguientes archivos\+:\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{SerialReader_8h}{Serial\+Reader.\+h}}\item 
+\mbox{\hyperlink{SerialReader_8cpp}{Serial\+Reader.\+cpp}}\end{DoxyCompactItemize}

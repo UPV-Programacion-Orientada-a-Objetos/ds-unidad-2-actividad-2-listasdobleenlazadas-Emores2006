@@ -1,0 +1,7 @@
+<map id="Gráfico de jerarquía de clases" name="Gráfico de jerarquía de clases">
+<area shape="rect" id="Node000000" href="$classTramaBase.html" title="Clase base abstracta que define la interfaz para todas las tramas." alt="" coords="5,31,95,56"/>
+<area shape="rect" id="Node000001" href="$classTramaLoad.html" title="Representa una trama de carga (L,X)" alt="" coords="143,5,229,31"/>
+<area shape="poly" id="edge1_Node000000_Node000001" title=" " alt="" coords="108,30,142,23,143,29,109,35"/>
+<area shape="rect" id="Node000002" href="$classTramaMap.html" title="Representa una trama de mapeo (M,N)" alt="" coords="144,55,228,80"/>
+<area shape="poly" id="edge2_Node000000_Node000002" title=" " alt="" coords="109,51,144,57,143,63,108,56"/>
+</map>

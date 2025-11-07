@@ -1,0 +1,28 @@
+\chapter{Decodificador PRT-\/7}
+\hypertarget{index}{}\label{index}\index{Decodificador PRT-\/7@{Decodificador PRT-\/7}}
+Programa principal del Decodificador PRT-\/7.
+
+Programa principal del Decodificador PRT-\/7 \begin{DoxyAuthor}{Autor}
+Eliezer Mores Oyervides 
+\end{DoxyAuthor}
+\begin{DoxyDate}{Fecha}
+2025
+\begin{DoxyItemize}
+\item 
+\end{DoxyItemize}
+\end{DoxyDate}
+\hypertarget{index_intro_sec}{}\doxysection{\texorpdfstring{Introducción}{Introducción}}\label{index_intro_sec}
+Este programa implementa un {\bfseries{Decodificador PRT-\/7}} basado en un protocolo industrial simple. Su función principal es leer tramas de un puerto serial y, en tiempo real, decodificar un mensaje aplicando una lógica de mapeo controlada por un rotor.
+\begin{DoxyItemize}
+\item Las tramas recibidas son de dos tipos\+:
+\item {\bfseries{Trama LOAD (\textquotesingle{}L\textquotesingle{})\+:}} Contiene un carácter a decodificar.
+\item {\bfseries{Trama MAP (\textquotesingle{}M\textquotesingle{})\+:}} Contiene un valor de rotación para el Rotor de Mapeo.
+\item 
+\end{DoxyItemize}\hypertarget{index_struct_sec}{}\doxysection{\texorpdfstring{Estructura del Programa}{Estructura del Programa}}\label{index_struct_sec}
+El decodificador utiliza las siguientes clases\+:
+\begin{DoxyItemize}
+\item {\bfseries{\doxylink{classSerialReader}{Serial\+Reader}\+:}} Maneja la conexión y lectura del puerto serial.
+\item {\bfseries{\doxylink{classListaDeCarga}{Lista\+De\+Carga}\+:}} Almacena todas las tramas recibidas.
+\item {\bfseries{\doxylink{classRotorDeMapeo}{Rotor\+De\+Mapeo}\+:}} Lógica de mapeo de caracteres.
+\item {\bfseries{\doxylink{classTramaBase}{Trama\+Base}\+:}} Clase base para polimorfismo. 
+\end{DoxyItemize}

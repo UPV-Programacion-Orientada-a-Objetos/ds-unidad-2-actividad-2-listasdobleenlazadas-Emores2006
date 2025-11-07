@@ -1,0 +1,33 @@
+\doxysection{Tramas.\+h}
+\hypertarget{Tramas_8h_source}{}\label{Tramas_8h_source}\mbox{\hyperlink{Tramas_8h}{Ir a la documentación de este archivo.}}
+\begin{DoxyCode}{0}
+\DoxyCodeLine{00001\ }
+\DoxyCodeLine{00008\ \textcolor{preprocessor}{\#ifndef\ TRAMAS\_H}}
+\DoxyCodeLine{00009\ \textcolor{preprocessor}{\#define\ TRAMAS\_H}}
+\DoxyCodeLine{00010\ }
+\DoxyCodeLine{00011\ \textcolor{preprocessor}{\#include\ "{}\mbox{\hyperlink{TramaBase_8h}{TramaBase.h}}"{}}}
+\DoxyCodeLine{00012\ \textcolor{preprocessor}{\#include\ "{}\mbox{\hyperlink{RotorDeMapeo_8h}{RotorDeMapeo.h}}"{}}}
+\DoxyCodeLine{00013\ }
+\DoxyCodeLine{00021\ \textcolor{keyword}{class\ }\mbox{\hyperlink{classTramaLoad}{TramaLoad}}\ :\ \textcolor{keyword}{public}\ \mbox{\hyperlink{classTramaBase}{TramaBase}}\ \{}
+\DoxyCodeLine{00022\ \textcolor{keyword}{private}:}
+\DoxyCodeLine{00023\ \ \ \ \ \textcolor{keywordtype}{char}\ caracter;\ \ }
+\DoxyCodeLine{00024\ \ \ \ \ }
+\DoxyCodeLine{00025\ \textcolor{keyword}{public}:}
+\DoxyCodeLine{00030\ \ \ \ \ \mbox{\hyperlink{classTramaLoad_ae8d79e626d2a4280e6f7582b19441391}{TramaLoad}}(\textcolor{keywordtype}{char}\ c)\ :\ caracter(c)\ \{\}}
+\DoxyCodeLine{00031\ \ \ \ \ }
+\DoxyCodeLine{00036\ \ \ \ \ \textcolor{keywordtype}{char}\ \mbox{\hyperlink{classTramaLoad_ad01ac76d8fe89cb03e121852f7c81bc3}{getCaracter}}()\textcolor{keyword}{\ const\ }\{\ \textcolor{keywordflow}{return}\ caracter;\ \}}
+\DoxyCodeLine{00037\ \};}
+\DoxyCodeLine{00038\ }
+\DoxyCodeLine{00046\ \textcolor{keyword}{class\ }\mbox{\hyperlink{classTramaMap}{TramaMap}}\ :\ \textcolor{keyword}{public}\ \mbox{\hyperlink{classTramaBase}{TramaBase}}\ \{}
+\DoxyCodeLine{00047\ \textcolor{keyword}{private}:}
+\DoxyCodeLine{00048\ \ \ \ \ \textcolor{keywordtype}{int}\ rotacion;\ \ }
+\DoxyCodeLine{00049\ \ \ \ \ }
+\DoxyCodeLine{00050\ \textcolor{keyword}{public}:}
+\DoxyCodeLine{00055\ \ \ \ \ \mbox{\hyperlink{classTramaMap_a53393e6450bf7d8852e669501dcef27d}{TramaMap}}(\textcolor{keywordtype}{int}\ n)\ :\ rotacion(n)\ \{\}}
+\DoxyCodeLine{00056\ \ \ \ \ }
+\DoxyCodeLine{00061\ \ \ \ \ \textcolor{keywordtype}{int}\ \mbox{\hyperlink{classTramaMap_a590a086870492f0a097d46a69bf1407e}{getRotacion}}()\textcolor{keyword}{\ const\ }\{\ \textcolor{keywordflow}{return}\ rotacion;\ \}}
+\DoxyCodeLine{00062\ \};}
+\DoxyCodeLine{00063\ }
+\DoxyCodeLine{00064\ \textcolor{preprocessor}{\#endif\ }\textcolor{comment}{//\ TRAMAS\_H}}
+
+\end{DoxyCode}

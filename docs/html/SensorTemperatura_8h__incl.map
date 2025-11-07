@@ -1,0 +1,14 @@
+<map id="/home/eliezer/C++/ds&#45;u2&#45;actividad&#45;1b&#45;listasenlazadassimples&#45;Emores2006/SensorTemperatura.h" name="/home/eliezer/C++/ds&#45;u2&#45;actividad&#45;1b&#45;listasenlazadassimples&#45;Emores2006/SensorTemperatura.h">
+<area shape="rect" id="Node000001" title="Sensor especializado para lecturas de temperatura (float)" alt="" coords="101,5,355,60"/>
+<area shape="rect" id="Node000002" href="$SensorBase_8h.html" title="Clase base abstracta para todos los sensores del sistema IoT." alt="" coords="5,108,109,133"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="177,62,94,104,91,99,175,58"/>
+<area shape="rect" id="Node000004" href="$ListaSensor_8h.html" title="Implementación de Lista Enlazada Simple Genérica para sensores." alt="" coords="133,108,235,133"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="217,61,199,97,194,94,212,59"/>
+<area shape="rect" id="Node000005" title=" " alt="" coords="192,181,264,207"/>
+<area shape="poly" id="edge5_Node000001_Node000005" title=" " alt="" coords="240,59,249,94,249,134,240,169,235,168,244,133,243,95,235,61"/>
+<area shape="rect" id="Node000006" title=" " alt="" coords="310,108,370,133"/>
+<area shape="poly" id="edge6_Node000001_Node000006" title=" " alt="" coords="264,58,315,97,312,102,261,62"/>
+<area shape="rect" id="Node000003" title=" " alt="" coords="27,181,88,207"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="60,134,60,168,55,168,55,134"/>
+<area shape="poly" id="edge4_Node000004_Node000005" title=" " alt="" coords="194,132,216,168,211,171,189,135"/>
+</map>

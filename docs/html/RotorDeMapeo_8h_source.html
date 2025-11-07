@@ -1,0 +1,132 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "https://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="es">
+<head>
+<meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=11"/>
+<meta name="generator" content="Doxygen 1.9.8"/>
+<meta name="viewport" content="width=device-width, initial-scale=1"/>
+<title>Decodificador PRT-7: Archivo de código fuente RotorDeMapeo.h</title>
+<link href="tabs.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="jquery.js"></script>
+<script type="text/javascript" src="dynsections.js"></script>
+<link href="search/search.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="search/searchdata.js"></script>
+<script type="text/javascript" src="search/search.js"></script>
+<link href="doxygen.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+<div id="top"><!-- do not remove this div, it is closed by doxygen! -->
+<div id="titlearea">
+<table cellspacing="0" cellpadding="0">
+ <tbody>
+ <tr id="projectrow">
+  <td id="projectalign">
+   <div id="projectname">Decodificador PRT-7
+   </div>
+   <div id="projectbrief">Decodificador PRT-7</div>
+  </td>
+ </tr>
+ </tbody>
+</table>
+</div>
+<!-- end header part -->
+<!-- Generado por Doxygen 1.9.8 -->
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+var searchBox = new SearchBox("searchBox", "search/",'.html');
+/* @license-end */
+</script>
+<script type="text/javascript" src="menudata.js"></script>
+<script type="text/javascript" src="menu.js"></script>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+$(function() {
+  initMenu('',true,false,'search.php','Buscar');
+  $(document).ready(function() { init_search(); });
+});
+/* @license-end */
+</script>
+<div id="main-nav"></div>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+$(document).ready(function() { init_codefold(0); });
+/* @license-end */
+</script>
+</div><!-- top -->
+<!-- window showing the filter options -->
+<div id="MSearchSelectWindow"
+     onmouseover="return searchBox.OnSearchSelectShow()"
+     onmouseout="return searchBox.OnSearchSelectHide()"
+     onkeydown="return searchBox.OnSearchSelectKey(event)">
+</div>
+
+<!-- iframe showing the search results (closed by default) -->
+<div id="MSearchResultsWindow">
+<div id="MSearchResults">
+<div class="SRPage">
+<div id="SRIndex">
+<div id="SRResults"></div>
+<div class="SRStatus" id="Loading">Cargando...</div>
+<div class="SRStatus" id="Searching">Buscando...</div>
+<div class="SRStatus" id="NoMatches">Nada coincide</div>
+</div>
+</div>
+</div>
+</div>
+
+<div class="header">
+  <div class="headertitle"><div class="title">RotorDeMapeo.h</div></div>
+</div><!--header-->
+<div class="contents">
+<a href="RotorDeMapeo_8h.html">Ir a la documentación de este archivo.</a><div class="fragment"><div class="line"><a id="l00001" name="l00001"></a><span class="lineno">    1</span> </div>
+<div class="line"><a id="l00008" name="l00008"></a><span class="lineno">    8</span><span class="preprocessor">#ifndef ROTOR_DE_MAPEO_H</span></div>
+<div class="line"><a id="l00009" name="l00009"></a><span class="lineno">    9</span><span class="preprocessor">#define ROTOR_DE_MAPEO_H</span></div>
+<div class="line"><a id="l00010" name="l00010"></a><span class="lineno">   10</span> </div>
+<div class="foldopen" id="foldopen00015" data-start="{" data-end="};">
+<div class="line"><a id="l00015" name="l00015"></a><span class="lineno"><a class="line" href="structNodoRotor.html">   15</a></span><span class="keyword">struct </span><a class="code hl_struct" href="structNodoRotor.html">NodoRotor</a> {</div>
+<div class="line"><a id="l00016" name="l00016"></a><span class="lineno"><a class="line" href="structNodoRotor.html#a75481b1f8ba943e4bc9e83bbbdd3c435">   16</a></span>    <span class="keywordtype">char</span> <a class="code hl_variable" href="structNodoRotor.html#a75481b1f8ba943e4bc9e83bbbdd3c435">dato</a>;           </div>
+<div class="line"><a id="l00017" name="l00017"></a><span class="lineno"><a class="line" href="structNodoRotor.html#a66dea829404fd5d2bc80a985f08f263f">   17</a></span>    <a class="code hl_struct" href="structNodoRotor.html">NodoRotor</a>* <a class="code hl_variable" href="structNodoRotor.html#a66dea829404fd5d2bc80a985f08f263f">siguiente</a>; </div>
+<div class="line"><a id="l00018" name="l00018"></a><span class="lineno"><a class="line" href="structNodoRotor.html#a328166e65987458eee4fb15da9ee65c0">   18</a></span>    <a class="code hl_struct" href="structNodoRotor.html">NodoRotor</a>* <a class="code hl_variable" href="structNodoRotor.html#a328166e65987458eee4fb15da9ee65c0">previo</a>;    </div>
+<div class="line"><a id="l00019" name="l00019"></a><span class="lineno">   19</span>    </div>
+<div class="line"><a id="l00024" name="l00024"></a><span class="lineno"><a class="line" href="structNodoRotor.html#a3f67e84b40591b779f75e26826fb898d">   24</a></span>    <a class="code hl_function" href="structNodoRotor.html#a3f67e84b40591b779f75e26826fb898d">NodoRotor</a>(<span class="keywordtype">char</span> c) : <a class="code hl_variable" href="structNodoRotor.html#a75481b1f8ba943e4bc9e83bbbdd3c435">dato</a>(c), <a class="code hl_variable" href="structNodoRotor.html#a66dea829404fd5d2bc80a985f08f263f">siguiente</a>(nullptr), <a class="code hl_variable" href="structNodoRotor.html#a328166e65987458eee4fb15da9ee65c0">previo</a>(nullptr) {}</div>
+<div class="line"><a id="l00025" name="l00025"></a><span class="lineno">   25</span>};</div>
+</div>
+<div class="line"><a id="l00026" name="l00026"></a><span class="lineno">   26</span> </div>
+<div class="foldopen" id="foldopen00034" data-start="{" data-end="};">
+<div class="line"><a id="l00034" name="l00034"></a><span class="lineno"><a class="line" href="classRotorDeMapeo.html">   34</a></span><span class="keyword">class </span><a class="code hl_class" href="classRotorDeMapeo.html">RotorDeMapeo</a> {</div>
+<div class="line"><a id="l00035" name="l00035"></a><span class="lineno">   35</span><span class="keyword">private</span>:</div>
+<div class="line"><a id="l00036" name="l00036"></a><span class="lineno">   36</span>    <a class="code hl_struct" href="structNodoRotor.html">NodoRotor</a>* cabeza;  </div>
+<div class="line"><a id="l00037" name="l00037"></a><span class="lineno">   37</span>    <span class="keywordtype">int</span> tamano;         </div>
+<div class="line"><a id="l00038" name="l00038"></a><span class="lineno">   38</span>    </div>
+<div class="line"><a id="l00039" name="l00039"></a><span class="lineno">   39</span><span class="keyword">public</span>:</div>
+<div class="line"><a id="l00046" name="l00046"></a><span class="lineno">   46</span>    <a class="code hl_function" href="classRotorDeMapeo.html#aa4a3be7c3ce2021244e4977e4ad856c9">RotorDeMapeo</a>();</div>
+<div class="line"><a id="l00047" name="l00047"></a><span class="lineno">   47</span>    </div>
+<div class="line"><a id="l00051" name="l00051"></a><span class="lineno">   51</span>    <a class="code hl_function" href="classRotorDeMapeo.html#adc5f4bfe5b8d66ba7c9bac38f4be4c5c">~RotorDeMapeo</a>();</div>
+<div class="line"><a id="l00052" name="l00052"></a><span class="lineno">   52</span>    </div>
+<div class="line"><a id="l00059" name="l00059"></a><span class="lineno">   59</span>    <span class="keywordtype">void</span> <a class="code hl_function" href="classRotorDeMapeo.html#ad221b5799dcf13def0afa76ae126ae0f">rotar</a>(<span class="keywordtype">int</span> n);</div>
+<div class="line"><a id="l00060" name="l00060"></a><span class="lineno">   60</span>    </div>
+<div class="line"><a id="l00069" name="l00069"></a><span class="lineno">   69</span>    <span class="keywordtype">char</span> <a class="code hl_function" href="classRotorDeMapeo.html#a70d4ad4bcef4bd5cec9c8d2602859f5c">getMapeo</a>(<span class="keywordtype">char</span> in);</div>
+<div class="line"><a id="l00070" name="l00070"></a><span class="lineno">   70</span>    </div>
+<div class="line"><a id="l00074" name="l00074"></a><span class="lineno">   74</span>    <span class="keywordtype">void</span> <a class="code hl_function" href="classRotorDeMapeo.html#ae751a8d79c9e18abaae39f2cf1b715ec">imprimirEstado</a>();</div>
+<div class="line"><a id="l00075" name="l00075"></a><span class="lineno">   75</span>};</div>
+</div>
+<div class="line"><a id="l00076" name="l00076"></a><span class="lineno">   76</span> </div>
+<div class="line"><a id="l00077" name="l00077"></a><span class="lineno">   77</span><span class="preprocessor">#endif </span><span class="comment">// ROTOR_DE_MAPEO_H</span></div>
+<div class="ttc" id="aclassRotorDeMapeo_html"><div class="ttname"><a href="classRotorDeMapeo.html">RotorDeMapeo</a></div><div class="ttdoc">Lista circular doblemente enlazada que simula un disco de cifrado.</div><div class="ttdef"><b>Definition</b> RotorDeMapeo.h:34</div></div>
+<div class="ttc" id="aclassRotorDeMapeo_html_a70d4ad4bcef4bd5cec9c8d2602859f5c"><div class="ttname"><a href="classRotorDeMapeo.html#a70d4ad4bcef4bd5cec9c8d2602859f5c">RotorDeMapeo::getMapeo</a></div><div class="ttdeci">char getMapeo(char in)</div><div class="ttdoc">Obtiene el carácter mapeado según la rotación actual.</div><div class="ttdef"><b>Definition</b> RotorDeMapeo.cpp:68</div></div>
+<div class="ttc" id="aclassRotorDeMapeo_html_aa4a3be7c3ce2021244e4977e4ad856c9"><div class="ttname"><a href="classRotorDeMapeo.html#aa4a3be7c3ce2021244e4977e4ad856c9">RotorDeMapeo::RotorDeMapeo</a></div><div class="ttdeci">RotorDeMapeo()</div><div class="ttdoc">Constructor que inicializa el rotor con el alfabeto A-Z.</div><div class="ttdef"><b>Definition</b> RotorDeMapeo.cpp:10</div></div>
+<div class="ttc" id="aclassRotorDeMapeo_html_ad221b5799dcf13def0afa76ae126ae0f"><div class="ttname"><a href="classRotorDeMapeo.html#ad221b5799dcf13def0afa76ae126ae0f">RotorDeMapeo::rotar</a></div><div class="ttdeci">void rotar(int n)</div><div class="ttdoc">Rota el rotor N posiciones.</div><div class="ttdef"><b>Definition</b> RotorDeMapeo.cpp:55</div></div>
+<div class="ttc" id="aclassRotorDeMapeo_html_adc5f4bfe5b8d66ba7c9bac38f4be4c5c"><div class="ttname"><a href="classRotorDeMapeo.html#adc5f4bfe5b8d66ba7c9bac38f4be4c5c">RotorDeMapeo::~RotorDeMapeo</a></div><div class="ttdeci">~RotorDeMapeo()</div><div class="ttdoc">Destructor que libera toda la memoria.</div><div class="ttdef"><b>Definition</b> RotorDeMapeo.cpp:39</div></div>
+<div class="ttc" id="aclassRotorDeMapeo_html_ae751a8d79c9e18abaae39f2cf1b715ec"><div class="ttname"><a href="classRotorDeMapeo.html#ae751a8d79c9e18abaae39f2cf1b715ec">RotorDeMapeo::imprimirEstado</a></div><div class="ttdeci">void imprimirEstado()</div><div class="ttdoc">Imprime el estado actual del rotor (para debugging)</div><div class="ttdef"><b>Definition</b> RotorDeMapeo.cpp:109</div></div>
+<div class="ttc" id="astructNodoRotor_html"><div class="ttname"><a href="structNodoRotor.html">NodoRotor</a></div><div class="ttdoc">Nodo de la lista circular que contiene un carácter.</div><div class="ttdef"><b>Definition</b> RotorDeMapeo.h:15</div></div>
+<div class="ttc" id="astructNodoRotor_html_a328166e65987458eee4fb15da9ee65c0"><div class="ttname"><a href="structNodoRotor.html#a328166e65987458eee4fb15da9ee65c0">NodoRotor::previo</a></div><div class="ttdeci">NodoRotor * previo</div><div class="ttdoc">Puntero al nodo anterior.</div><div class="ttdef"><b>Definition</b> RotorDeMapeo.h:18</div></div>
+<div class="ttc" id="astructNodoRotor_html_a3f67e84b40591b779f75e26826fb898d"><div class="ttname"><a href="structNodoRotor.html#a3f67e84b40591b779f75e26826fb898d">NodoRotor::NodoRotor</a></div><div class="ttdeci">NodoRotor(char c)</div><div class="ttdoc">Constructor del nodo.</div><div class="ttdef"><b>Definition</b> RotorDeMapeo.h:24</div></div>
+<div class="ttc" id="astructNodoRotor_html_a66dea829404fd5d2bc80a985f08f263f"><div class="ttname"><a href="structNodoRotor.html#a66dea829404fd5d2bc80a985f08f263f">NodoRotor::siguiente</a></div><div class="ttdeci">NodoRotor * siguiente</div><div class="ttdoc">Puntero al siguiente nodo.</div><div class="ttdef"><b>Definition</b> RotorDeMapeo.h:17</div></div>
+<div class="ttc" id="astructNodoRotor_html_a75481b1f8ba943e4bc9e83bbbdd3c435"><div class="ttname"><a href="structNodoRotor.html#a75481b1f8ba943e4bc9e83bbbdd3c435">NodoRotor::dato</a></div><div class="ttdeci">char dato</div><div class="ttdoc">Carácter almacenado.</div><div class="ttdef"><b>Definition</b> RotorDeMapeo.h:16</div></div>
+</div><!-- fragment --></div><!-- contents -->
+<!-- start footer part -->
+<hr class="footer"/><address class="footer"><small>
+Generado por&#160;<a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.8
+</small></address>
+</body>
+</html>

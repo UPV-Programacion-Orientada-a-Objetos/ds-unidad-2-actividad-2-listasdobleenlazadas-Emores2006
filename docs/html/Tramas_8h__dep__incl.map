@@ -1,0 +1,9 @@
+<map id="Tramas.h" name="Tramas.h">
+<area shape="rect" id="Node000001" title="Clases derivadas para los dos tipos de tramas: LOAD y MAP." alt="" coords="163,5,241,31"/>
+<area shape="rect" id="Node000002" href="$ListaDeCarga_8cpp.html" title="Implementación de la clase ListaDeCarga." alt="" coords="5,79,132,104"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="170,39,92,81,89,76,167,35"/>
+<area shape="rect" id="Node000003" href="$Tramas_8cpp.html" title="Implementación de las clases TramaLoad y TramaMap." alt="" coords="157,79,247,104"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="205,44,205,79,199,79,199,44"/>
+<area shape="rect" id="Node000004" href="$main_8cpp.html" title=" " alt="" coords="271,79,346,104"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="232,36,293,76,290,81,229,40"/>
+</map>

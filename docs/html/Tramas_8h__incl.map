@@ -1,0 +1,7 @@
+<map id="Tramas.h" name="Tramas.h">
+<area shape="rect" id="Node000001" title="Clases derivadas para los dos tipos de tramas: LOAD y MAP." alt="" coords="83,5,161,31"/>
+<area shape="rect" id="Node000002" href="$TramaBase_8h.html" title="Clase base abstracta para el sistema de tramas PRT&#45;7." alt="" coords="5,79,105,104"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="113,33,77,70,74,67,109,29"/>
+<area shape="rect" id="Node000003" href="$RotorDeMapeo_8h.html" title="Implementación de lista circular doblemente enlazada para mapeo de caracteres." alt="" coords="129,79,251,104"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="135,29,171,67,167,70,131,33"/>
+</map>

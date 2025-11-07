@@ -1,0 +1,16 @@
+<map id="TramaBase.h" name="TramaBase.h">
+<area shape="rect" id="Node000001" title="Clase base abstracta para el sistema de tramas PRT&#45;7." alt="" coords="209,5,309,31"/>
+<area shape="rect" id="Node000002" href="$ListaDeCarga_8h.html" title="Implementación de lista doblemente enlazada para almacenar tramas." alt="" coords="202,79,315,104"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="261,44,261,79,256,79,256,44"/>
+<area shape="rect" id="Node000004" href="$main_8cpp.html" title=" " alt="" coords="272,152,347,177"/>
+<area shape="poly" id="edge8_Node000001_Node000004" title=" " alt="" coords="293,36,314,54,330,78,335,98,332,119,319,153,314,151,327,118,330,98,326,80,310,58,290,40"/>
+<area shape="rect" id="Node000005" href="$Tramas_8h.html" title="Clases derivadas para los dos tipos de tramas: LOAD y MAP." alt="" coords="100,79,177,104"/>
+<area shape="poly" id="edge4_Node000001_Node000005" title=" " alt="" coords="229,40,160,81,157,76,226,35"/>
+<area shape="rect" id="Node000003" href="$ListaDeCarga_8cpp.html" title="Implementación de la clase ListaDeCarga." alt="" coords="121,152,247,177"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="239,115,198,154,194,150,235,111"/>
+<area shape="poly" id="edge3_Node000002_Node000004" title=" " alt="" coords="277,114,303,150,299,153,273,117"/>
+<area shape="poly" id="edge5_Node000005_Node000003" title=" " alt="" coords="156,114,179,150,174,153,151,117"/>
+<area shape="poly" id="edge7_Node000005_Node000004" title=" " alt="" coords="180,107,282,149,280,154,178,112"/>
+<area shape="rect" id="Node000006" href="$Tramas_8cpp.html" title="Implementación de las clases TramaLoad y TramaMap." alt="" coords="5,152,96,177"/>
+<area shape="poly" id="edge6_Node000005_Node000006" title=" " alt="" coords="116,115,67,154,63,150,112,110"/>
+</map>

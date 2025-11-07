@@ -1,0 +1,33 @@
+\doxysection{Serial\+Reader.\+h}
+\hypertarget{SerialReader_8h_source}{}\label{SerialReader_8h_source}\mbox{\hyperlink{SerialReader_8h}{Ir a la documentación de este archivo.}}
+\begin{DoxyCode}{0}
+\DoxyCodeLine{00001\ }
+\DoxyCodeLine{00008\ \textcolor{preprocessor}{\#ifndef\ SERIAL\_READER\_H}}
+\DoxyCodeLine{00009\ \textcolor{preprocessor}{\#define\ SERIAL\_READER\_H}}
+\DoxyCodeLine{00010\ }
+\DoxyCodeLine{00011\ \textcolor{preprocessor}{\#include\ <fcntl.h>}}
+\DoxyCodeLine{00012\ \textcolor{preprocessor}{\#include\ <termios.h>}}
+\DoxyCodeLine{00013\ \textcolor{preprocessor}{\#include\ <unistd.h>}}
+\DoxyCodeLine{00014\ }
+\DoxyCodeLine{00022\ \textcolor{keyword}{class\ }\mbox{\hyperlink{classSerialReader}{SerialReader}}\ \{}
+\DoxyCodeLine{00023\ \textcolor{keyword}{private}:}
+\DoxyCodeLine{00024\ \ \ \ \ \textcolor{keywordtype}{int}\ puerto;\ \ \ \ \ \ }
+\DoxyCodeLine{00025\ \ \ \ \ \textcolor{keywordtype}{bool}\ conectado;\ \ }
+\DoxyCodeLine{00026\ \ \ \ \ }
+\DoxyCodeLine{00027\ \textcolor{keyword}{public}:}
+\DoxyCodeLine{00031\ \ \ \ \ \mbox{\hyperlink{classSerialReader_a182a5d78dad1bbb57fe7e86ae68fea82}{SerialReader}}();}
+\DoxyCodeLine{00032\ \ \ \ \ }
+\DoxyCodeLine{00036\ \ \ \ \ \mbox{\hyperlink{classSerialReader_a3a5314ddbf65796603139fbec05c2cf6}{\string~SerialReader}}();}
+\DoxyCodeLine{00037\ \ \ \ \ }
+\DoxyCodeLine{00044\ \ \ \ \ \textcolor{keywordtype}{bool}\ \mbox{\hyperlink{classSerialReader_a6f6788fcee0b6837aec7699d68d389c3}{conectar}}(\textcolor{keyword}{const}\ \textcolor{keywordtype}{char}*\ nombrePuerto,\ \textcolor{keywordtype}{int}\ baudRate\ =\ 9600);}
+\DoxyCodeLine{00045\ \ \ \ \ }
+\DoxyCodeLine{00054\ \ \ \ \ \textcolor{keywordtype}{bool}\ \mbox{\hyperlink{classSerialReader_aae3142d45125a0a6347bf4172804a8ad}{leerLinea}}(\textcolor{keywordtype}{char}*\ buffer,\ \textcolor{keywordtype}{int}\ maxLen);}
+\DoxyCodeLine{00055\ \ \ \ \ }
+\DoxyCodeLine{00059\ \ \ \ \ \textcolor{keywordtype}{void}\ \mbox{\hyperlink{classSerialReader_a037303382453bf397ff19dcbc8c46dad}{cerrar}}();}
+\DoxyCodeLine{00060\ \ \ \ \ }
+\DoxyCodeLine{00065\ \ \ \ \ \textcolor{keywordtype}{bool}\ \mbox{\hyperlink{classSerialReader_a2845e8d12a4209fc3e9c2b63c0d170dc}{estaConectado}}()\textcolor{keyword}{\ const\ }\{\ \textcolor{keywordflow}{return}\ conectado;\ \}}
+\DoxyCodeLine{00066\ \};}
+\DoxyCodeLine{00067\ }
+\DoxyCodeLine{00068\ \textcolor{preprocessor}{\#endif\ }\textcolor{comment}{//\ SERIAL\_READER\_H}}
+
+\end{DoxyCode}

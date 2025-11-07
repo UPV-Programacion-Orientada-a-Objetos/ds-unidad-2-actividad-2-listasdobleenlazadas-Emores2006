@@ -1,0 +1,131 @@
+\doxysection{Referencia de la clase Lista\+De\+Carga}
+\hypertarget{classListaDeCarga}{}\label{classListaDeCarga}\index{ListaDeCarga@{ListaDeCarga}}
+
+
+Lista doblemente enlazada que almacena las tramas recibidas en orden.  
+
+
+
+
+{\ttfamily \#include $<$Lista\+De\+Carga.\+h$>$}
+
+\doxysubsubsection*{Métodos públicos}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{classListaDeCarga_ad45449e2427d1ebc6f31c737a213d7d6}{Lista\+De\+Carga}} ()
+\begin{DoxyCompactList}\small\item\em Constructor que inicializa una lista vacía. \end{DoxyCompactList}\item 
+\mbox{\hyperlink{classListaDeCarga_aa2082ca43fa7ead69098c33963096276}{\texorpdfstring{$\sim$}{\string~}\+Lista\+De\+Carga}} ()
+\begin{DoxyCompactList}\small\item\em Destructor que libera toda la memoria. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{classListaDeCarga_a5801832b1214eb1245eca3b31fd18f41}{insertar\+Al\+Final}} (\mbox{\hyperlink{classTramaBase}{Trama\+Base}} \texorpdfstring{$\ast$}{*}trama)
+\begin{DoxyCompactList}\small\item\em Inserta una trama al final de la lista. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{classListaDeCarga_af12ce77e798500f587d456feebbed720}{procesar\+Tramas}} (\mbox{\hyperlink{classRotorDeMapeo}{Rotor\+De\+Mapeo}} \texorpdfstring{$\ast$}{*}rotor)
+\begin{DoxyCompactList}\small\item\em Procesa todas las tramas en orden. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{classListaDeCarga_a03df95d5deeb99fbaddbadf3bf9c8934}{imprimir\+Mensaje\+Final}} ()
+\begin{DoxyCompactList}\small\item\em Imprime el mensaje final decodificado. \end{DoxyCompactList}\item 
+int \mbox{\hyperlink{classListaDeCarga_aa0af33b8e6ea9536cd7849bd373cfdb0}{get\+Tamano}} () const
+\begin{DoxyCompactList}\small\item\em Obtiene el tamaño de la lista. \end{DoxyCompactList}\item 
+bool \mbox{\hyperlink{classListaDeCarga_a22b78f1548dea60b27e62d3805bd7df7}{esta\+Vacia}} () const
+\begin{DoxyCompactList}\small\item\em Verifica si la lista está vacía. \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\doxysubsection{Descripción detallada}
+Lista doblemente enlazada que almacena las tramas recibidas en orden. 
+
+Esta lista mantiene todas las tramas (LOAD y MAP) en el orden en que fueron recibidas del puerto serial, permitiendo procesarlas secuencialmente 
+
+\doxysubsection{Documentación de constructores y destructores}
+\Hypertarget{classListaDeCarga_ad45449e2427d1ebc6f31c737a213d7d6}\label{classListaDeCarga_ad45449e2427d1ebc6f31c737a213d7d6} 
+\index{ListaDeCarga@{ListaDeCarga}!ListaDeCarga@{ListaDeCarga}}
+\index{ListaDeCarga@{ListaDeCarga}!ListaDeCarga@{ListaDeCarga}}
+\doxysubsubsection{\texorpdfstring{ListaDeCarga()}{ListaDeCarga()}}
+{\footnotesize\ttfamily Lista\+De\+Carga\+::\+Lista\+De\+Carga (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Constructor que inicializa una lista vacía. 
+
+\Hypertarget{classListaDeCarga_aa2082ca43fa7ead69098c33963096276}\label{classListaDeCarga_aa2082ca43fa7ead69098c33963096276} 
+\index{ListaDeCarga@{ListaDeCarga}!````~ListaDeCarga@{\texorpdfstring{$\sim$}{\string~}ListaDeCarga}}
+\index{````~ListaDeCarga@{\texorpdfstring{$\sim$}{\string~}ListaDeCarga}!ListaDeCarga@{ListaDeCarga}}
+\doxysubsubsection{\texorpdfstring{\texorpdfstring{$\sim$}{\string~}ListaDeCarga()}{\string~ListaDeCarga()}}
+{\footnotesize\ttfamily Lista\+De\+Carga\+::\texorpdfstring{$\sim$}{\string~}\+Lista\+De\+Carga (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Destructor que libera toda la memoria. 
+
+IMPORTANTE\+: También libera las tramas apuntadas (delete trama) 
+
+\doxysubsection{Documentación de funciones miembro}
+\Hypertarget{classListaDeCarga_a22b78f1548dea60b27e62d3805bd7df7}\label{classListaDeCarga_a22b78f1548dea60b27e62d3805bd7df7} 
+\index{ListaDeCarga@{ListaDeCarga}!estaVacia@{estaVacia}}
+\index{estaVacia@{estaVacia}!ListaDeCarga@{ListaDeCarga}}
+\doxysubsubsection{\texorpdfstring{estaVacia()}{estaVacia()}}
+{\footnotesize\ttfamily bool Lista\+De\+Carga\+::esta\+Vacia (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption}) const\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+Verifica si la lista está vacía. 
+
+\begin{DoxyReturn}{Devuelve}
+true si está vacía, false en caso contrario 
+\end{DoxyReturn}
+\Hypertarget{classListaDeCarga_aa0af33b8e6ea9536cd7849bd373cfdb0}\label{classListaDeCarga_aa0af33b8e6ea9536cd7849bd373cfdb0} 
+\index{ListaDeCarga@{ListaDeCarga}!getTamano@{getTamano}}
+\index{getTamano@{getTamano}!ListaDeCarga@{ListaDeCarga}}
+\doxysubsubsection{\texorpdfstring{getTamano()}{getTamano()}}
+{\footnotesize\ttfamily int Lista\+De\+Carga\+::get\+Tamano (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption}) const\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+Obtiene el tamaño de la lista. 
+
+\begin{DoxyReturn}{Devuelve}
+Número de tramas almacenadas 
+\end{DoxyReturn}
+\Hypertarget{classListaDeCarga_a03df95d5deeb99fbaddbadf3bf9c8934}\label{classListaDeCarga_a03df95d5deeb99fbaddbadf3bf9c8934} 
+\index{ListaDeCarga@{ListaDeCarga}!imprimirMensajeFinal@{imprimirMensajeFinal}}
+\index{imprimirMensajeFinal@{imprimirMensajeFinal}!ListaDeCarga@{ListaDeCarga}}
+\doxysubsubsection{\texorpdfstring{imprimirMensajeFinal()}{imprimirMensajeFinal()}}
+{\footnotesize\ttfamily void Lista\+De\+Carga\+::imprimir\+Mensaje\+Final (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Imprime el mensaje final decodificado. 
+
+Extrae y muestra solo los caracteres resultantes de las \doxylink{classTramaLoad}{Trama\+Load} \Hypertarget{classListaDeCarga_a5801832b1214eb1245eca3b31fd18f41}\label{classListaDeCarga_a5801832b1214eb1245eca3b31fd18f41} 
+\index{ListaDeCarga@{ListaDeCarga}!insertarAlFinal@{insertarAlFinal}}
+\index{insertarAlFinal@{insertarAlFinal}!ListaDeCarga@{ListaDeCarga}}
+\doxysubsubsection{\texorpdfstring{insertarAlFinal()}{insertarAlFinal()}}
+{\footnotesize\ttfamily void Lista\+De\+Carga\+::insertar\+Al\+Final (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{classTramaBase}{Trama\+Base}} \texorpdfstring{$\ast$}{*}}]{trama }\end{DoxyParamCaption})}
+
+
+
+Inserta una trama al final de la lista. 
+
+
+\begin{DoxyParams}{Parámetros}
+{\em trama} & Puntero a la trama a insertar \\
+\hline
+\end{DoxyParams}
+\Hypertarget{classListaDeCarga_af12ce77e798500f587d456feebbed720}\label{classListaDeCarga_af12ce77e798500f587d456feebbed720} 
+\index{ListaDeCarga@{ListaDeCarga}!procesarTramas@{procesarTramas}}
+\index{procesarTramas@{procesarTramas}!ListaDeCarga@{ListaDeCarga}}
+\doxysubsubsection{\texorpdfstring{procesarTramas()}{procesarTramas()}}
+{\footnotesize\ttfamily void Lista\+De\+Carga\+::procesar\+Tramas (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{classRotorDeMapeo}{Rotor\+De\+Mapeo}} \texorpdfstring{$\ast$}{*}}]{rotor }\end{DoxyParamCaption})}
+
+
+
+Procesa todas las tramas en orden. 
+
+
+\begin{DoxyParams}{Parámetros}
+{\em rotor} & Puntero al rotor de mapeo\\
+\hline
+\end{DoxyParams}
+Recorre la lista y ejecuta el método procesar() de cada trama polimórficamente 
+
+La documentación de esta clase está generada de los siguientes archivos\+:\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{ListaDeCarga_8h}{Lista\+De\+Carga.\+h}}\item 
+\mbox{\hyperlink{ListaDeCarga_8cpp}{Lista\+De\+Carga.\+cpp}}\end{DoxyCompactItemize}

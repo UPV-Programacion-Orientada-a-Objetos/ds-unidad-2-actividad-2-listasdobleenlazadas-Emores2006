@@ -1,0 +1,9 @@
+<map id="SerialReader.h" name="SerialReader.h">
+<area shape="rect" id="Node000001" title="Clase para manejar la lectura desde el puerto serial en Linux." alt="" coords="73,5,180,31"/>
+<area shape="rect" id="Node000002" title=" " alt="" coords="5,79,64,104"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="114,33,62,72,59,68,110,29"/>
+<area shape="rect" id="Node000003" title=" " alt="" coords="89,79,165,104"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="129,31,129,65,124,65,124,31"/>
+<area shape="rect" id="Node000004" title=" " alt="" coords="189,79,257,104"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="144,29,197,68,194,72,141,33"/>
+</map>

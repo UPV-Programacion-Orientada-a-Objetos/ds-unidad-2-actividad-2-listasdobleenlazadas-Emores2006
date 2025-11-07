@@ -1,0 +1,6 @@
+<map id="NodoCarga" name="NodoCarga">
+<area shape="rect" id="Node000001" title="Nodo de la lista doblemente enlazada que almacena punteros a TramaBase." alt="" coords="6,95,94,121"/>
+<area shape="poly" id="edge2_Node000001_Node000001" title=" " alt="" coords="109,99,117,102,121,108,112,117,95,119,94,114,110,112,115,108,114,106,107,103"/>
+<area shape="rect" id="Node000002" href="$classTramaBase.html" title="Clase base abstracta que define la interfaz para todas las tramas." alt="" coords="5,5,95,31"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="53,44,53,95,47,95,47,44"/>
+</map>

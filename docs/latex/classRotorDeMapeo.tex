@@ -1,0 +1,104 @@
+\doxysection{Referencia de la clase Rotor\+De\+Mapeo}
+\hypertarget{classRotorDeMapeo}{}\label{classRotorDeMapeo}\index{RotorDeMapeo@{RotorDeMapeo}}
+
+
+Lista circular doblemente enlazada que simula un disco de cifrado.  
+
+
+
+
+{\ttfamily \#include $<$Rotor\+De\+Mapeo.\+h$>$}
+
+\doxysubsubsection*{Métodos públicos}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{classRotorDeMapeo_aa4a3be7c3ce2021244e4977e4ad856c9}{Rotor\+De\+Mapeo}} ()
+\begin{DoxyCompactList}\small\item\em Constructor que inicializa el rotor con el alfabeto A-\/Z. \end{DoxyCompactList}\item 
+\mbox{\hyperlink{classRotorDeMapeo_adc5f4bfe5b8d66ba7c9bac38f4be4c5c}{\texorpdfstring{$\sim$}{\string~}\+Rotor\+De\+Mapeo}} ()
+\begin{DoxyCompactList}\small\item\em Destructor que libera toda la memoria. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{classRotorDeMapeo_ad221b5799dcf13def0afa76ae126ae0f}{rotar}} (int n)
+\begin{DoxyCompactList}\small\item\em Rota el rotor N posiciones. \end{DoxyCompactList}\item 
+char \mbox{\hyperlink{classRotorDeMapeo_a70d4ad4bcef4bd5cec9c8d2602859f5c}{get\+Mapeo}} (char in)
+\begin{DoxyCompactList}\small\item\em Obtiene el carácter mapeado según la rotación actual. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{classRotorDeMapeo_ae751a8d79c9e18abaae39f2cf1b715ec}{imprimir\+Estado}} ()
+\begin{DoxyCompactList}\small\item\em Imprime el estado actual del rotor (para debugging) \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\doxysubsection{Descripción detallada}
+Lista circular doblemente enlazada que simula un disco de cifrado. 
+
+Funciona como una Rueda de César que puede rotar para cambiar el mapeo entre caracteres de entrada y salida 
+
+\doxysubsection{Documentación de constructores y destructores}
+\Hypertarget{classRotorDeMapeo_aa4a3be7c3ce2021244e4977e4ad856c9}\label{classRotorDeMapeo_aa4a3be7c3ce2021244e4977e4ad856c9} 
+\index{RotorDeMapeo@{RotorDeMapeo}!RotorDeMapeo@{RotorDeMapeo}}
+\index{RotorDeMapeo@{RotorDeMapeo}!RotorDeMapeo@{RotorDeMapeo}}
+\doxysubsubsection{\texorpdfstring{RotorDeMapeo()}{RotorDeMapeo()}}
+{\footnotesize\ttfamily Rotor\+De\+Mapeo\+::\+Rotor\+De\+Mapeo (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Constructor que inicializa el rotor con el alfabeto A-\/Z. 
+
+IMPORTANTE\+: El espacio NO se incluye en el rotor circular. Los espacios siempre se mantienen como espacios sin cifrado. \Hypertarget{classRotorDeMapeo_adc5f4bfe5b8d66ba7c9bac38f4be4c5c}\label{classRotorDeMapeo_adc5f4bfe5b8d66ba7c9bac38f4be4c5c} 
+\index{RotorDeMapeo@{RotorDeMapeo}!````~RotorDeMapeo@{\texorpdfstring{$\sim$}{\string~}RotorDeMapeo}}
+\index{````~RotorDeMapeo@{\texorpdfstring{$\sim$}{\string~}RotorDeMapeo}!RotorDeMapeo@{RotorDeMapeo}}
+\doxysubsubsection{\texorpdfstring{\texorpdfstring{$\sim$}{\string~}RotorDeMapeo()}{\string~RotorDeMapeo()}}
+{\footnotesize\ttfamily Rotor\+De\+Mapeo\+::\texorpdfstring{$\sim$}{\string~}\+Rotor\+De\+Mapeo (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Destructor que libera toda la memoria. 
+
+
+
+\doxysubsection{Documentación de funciones miembro}
+\Hypertarget{classRotorDeMapeo_a70d4ad4bcef4bd5cec9c8d2602859f5c}\label{classRotorDeMapeo_a70d4ad4bcef4bd5cec9c8d2602859f5c} 
+\index{RotorDeMapeo@{RotorDeMapeo}!getMapeo@{getMapeo}}
+\index{getMapeo@{getMapeo}!RotorDeMapeo@{RotorDeMapeo}}
+\doxysubsubsection{\texorpdfstring{getMapeo()}{getMapeo()}}
+{\footnotesize\ttfamily char Rotor\+De\+Mapeo\+::get\+Mapeo (\begin{DoxyParamCaption}\item[{char}]{in }\end{DoxyParamCaption})}
+
+
+
+Obtiene el carácter mapeado según la rotación actual. 
+
+
+\begin{DoxyParams}{Parámetros}
+{\em in} & Carácter de entrada \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Devuelve}
+Carácter decodificado según la posición del rotor
+\end{DoxyReturn}
+La lógica\+: encuentra \textquotesingle{}in\textquotesingle{} en el rotor, calcula su distancia desde cabeza, y devuelve el carácter que está a esa distancia \Hypertarget{classRotorDeMapeo_ae751a8d79c9e18abaae39f2cf1b715ec}\label{classRotorDeMapeo_ae751a8d79c9e18abaae39f2cf1b715ec} 
+\index{RotorDeMapeo@{RotorDeMapeo}!imprimirEstado@{imprimirEstado}}
+\index{imprimirEstado@{imprimirEstado}!RotorDeMapeo@{RotorDeMapeo}}
+\doxysubsubsection{\texorpdfstring{imprimirEstado()}{imprimirEstado()}}
+{\footnotesize\ttfamily void Rotor\+De\+Mapeo\+::imprimir\+Estado (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Imprime el estado actual del rotor (para debugging) 
+
+\Hypertarget{classRotorDeMapeo_ad221b5799dcf13def0afa76ae126ae0f}\label{classRotorDeMapeo_ad221b5799dcf13def0afa76ae126ae0f} 
+\index{RotorDeMapeo@{RotorDeMapeo}!rotar@{rotar}}
+\index{rotar@{rotar}!RotorDeMapeo@{RotorDeMapeo}}
+\doxysubsubsection{\texorpdfstring{rotar()}{rotar()}}
+{\footnotesize\ttfamily void Rotor\+De\+Mapeo\+::rotar (\begin{DoxyParamCaption}\item[{int}]{n }\end{DoxyParamCaption})}
+
+
+
+Rota el rotor N posiciones. 
+
+
+\begin{DoxyParams}{Parámetros}
+{\em n} & Número de posiciones a rotar (positivo\+: adelante, negativo\+: atrás)\\
+\hline
+\end{DoxyParams}
+Ejemplo\+: rotar(2) hace que \textquotesingle{}A\textquotesingle{} se mapee a \textquotesingle{}C\textquotesingle{} 
+
+La documentación de esta clase está generada de los siguientes archivos\+:\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{RotorDeMapeo_8h}{Rotor\+De\+Mapeo.\+h}}\item 
+\mbox{\hyperlink{RotorDeMapeo_8cpp}{Rotor\+De\+Mapeo.\+cpp}}\end{DoxyCompactItemize}

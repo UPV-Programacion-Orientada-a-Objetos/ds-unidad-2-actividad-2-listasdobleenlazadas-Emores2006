@@ -1,0 +1,5 @@
+<map id="TramaLoad" name="TramaLoad">
+<area shape="rect" id="Node000001" title="Representa una trama de carga (L,X)" alt="" coords="7,79,93,104"/>
+<area shape="rect" id="Node000002" href="$classTramaBase.html" title="Clase base abstracta que define la interfaz para todas las tramas." alt="" coords="5,5,95,31"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="53,44,53,79,47,79,47,44"/>
+</map>
